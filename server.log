@@ -1,0 +1,25 @@
+127.0.0.1 | 2026-04-20 21:37:42 | GET / | 200 OK
+127.0.0.1 | 2026-04-20 21:37:42 | GET /favicon.ico | 404 Not Found
+127.0.0.1 | 2026-04-20 21:38:42 | GET /test1.rtf | 200 OK
+127.0.0.1 | 2026-04-20 21:38:59 | GET /pic | 404 Not Found
+127.0.0.1 | 2026-04-20 21:39:05 | GET /pic.png | 200 OK
+127.0.0.1 | 2026-04-20 21:39:45 | GET /index.html | 200 OK
+127.0.0.1 | 2026-04-20 21:39:55 | GET /page1.html | 200 OK
+127.0.0.1 | 2026-04-20 21:53:42 | GET /index.html | 200 OK
+127.0.0.1 | 2026-04-20 21:57:30 | GET /index.html/image.jpg | 404 Not Found
+127.0.0.1 | 2026-04-20 21:57:39 | GET /index.html/image.png | 404 Not Found
+127.0.0.1 | 2026-04-20 21:58:08 | GET /index.html/pic.png | 404 Not Found
+127.0.0.1 | 2026-04-20 21:58:53 | GET /pic1.png | 200 OK
+127.0.0.1 | 2026-04-20 21:59:59 | GET /index.html | 200 OK
+127.0.0.1 | 2026-04-20 22:04:01 | GET /index.html | 200 OK
+127.0.0.1 | 2026-04-20 22:08:18 | HEAD /index.html | 200 OK
+127.0.0.1 | 2026-04-20 22:08:59 | GET /image.jpg | 404 Not Found
+127.0.0.1 | 2026-04-20 22:09:41 | GET /pic1.png | 200 OK
+127.0.0.1 | 2026-04-20 22:11:39 | GET /index.html | 304 Not Modified
+127.0.0.1 | 2026-04-20 22:12:59 | ? / | 400 Bad Request
+127.0.0.1 | 2026-04-20 22:44:12 | GET /secret.txt | 403 Forbidden
+127.0.0.1 | 2026-04-20 22:45:07 | GET /missing.html | 404 Not Found
+127.0.0.1 | 2026-04-20 22:45:40 | GET /index.html | 200 OK
+127.0.0.1 | 2026-04-20 22:47:04 | GET /index.html | 200 OK
+127.0.0.1 | 2026-04-20 22:49:11 | GET /index.html | 200 OK
+127.0.0.1 | 2026-04-20 22:49:24 | GET /index.html | 200 OK
